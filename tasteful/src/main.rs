@@ -12,7 +12,7 @@ fn world() ->&'static str {
 #[launch]
 fn rocket() -> _ {
     rocket::build()
-        .mount("/hello",routes![world])
-        .mount("/", FileServer::from(relative!("static")))
+        .mount("/",routes![world])
+        
 }
 
