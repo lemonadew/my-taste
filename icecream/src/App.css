@@ -6,13 +6,14 @@
 }
 h2 {
   position: relative;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  font: bold 20px 'Pacifico', san-serif;
   white-space: nowrap;
   font-size: 10vh;
   padding-bottom: 20;
   padding-top: 20;
   -webkit-text-stroke: 0.3vh #383d52;
   text-transform: uppercase;
-
 }
 h2:before {
   content: attr(data-text);
@@ -21,11 +22,10 @@ h2:before {
   left: 0;
   width: 0;
   height: 100%;
-  color: #01fe87;
+  color: #6c4ab0;
   -webkit-text-stroke: 0.3vh #383d52;
-  border-right: 2px solid #01fe87;
   overflow: hidden;
-  animation: animate 6s linear infinite;
+  animation: animate 10s linear infinite;
 }
 @keyframes animate {
   0%, 10%, 100% {
