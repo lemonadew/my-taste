@@ -1,0 +1,44 @@
+.App{
+  background-color: #C1EEFF;
+  
+}
+.logo{
+  background-color: #6FD08C;
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+  border: none;
+  padding: 25px;
+  border-radius: 15px;
+}
+.logo-text{
+  font-family: 'Pacifico', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 4vw;
+
+}
+
+.ingredients{
+  display: relative;
+  background-color: #FFD6E0;
+  margin: auto;
+  margin-top: 2.5%;
+  width: 70%;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.ingredients-heading{
+  font-family: 'Pacifico', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+}
+.ingredients-input{
+  display:flexbox;
+  margin: auto;
+  margin-top: 2.5%;
+  width: 55%;
+  border-radius: 10px;
+  border-color: #4E6E5D;
+}
