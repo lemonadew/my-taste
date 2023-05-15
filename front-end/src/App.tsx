@@ -16,9 +16,8 @@ function App() {
 
       <div className='ingredients'>
         <span className='ingredients-heading'> Add your ingredients!</span>
-        <div id = 'ingredients-input'>
-          <IngredientInput label="" />
-        </div>
+        <IngredientInput label="" />
+        
       </div>
 
       <div className='generate'>

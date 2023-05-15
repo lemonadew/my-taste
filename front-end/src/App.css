@@ -35,10 +35,13 @@
   font-size: 2vw;
 }
 .ingredients-input{
-  display:flexbox;
+  display:flex;
   margin: auto;
   margin-top: 2.5%;
   width: 55%;
   border-radius: 10px;
   border-color: #4E6E5D;
+}
+.input-box{
+  margin:auto;
 }

@@ -13,15 +13,9 @@ function IngredientInput(props: AriaTextFieldProps) {
   } = useTextField(props, ref);
 
   return (
-    <div
-      style={{
-        justifySelf: 'center',
-        width: 200
-        
-      }}
-    >
+    <div className='ingredients-input'>
       <label {...labelProps}>{label}</label>
-      <input {...inputProps} ref={ref} />
+      <input {...inputProps} ref={ref} className='input-box'/>
       {props.description && (
         <div {...descriptionProps} style={{ fontSize: 12 }}>
           {props.description}
